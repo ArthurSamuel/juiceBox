@@ -1,0 +1,9 @@
+.decsText {
+  font-family: var(--font-bagoss);
+  font-size: var(--textH4); 
+  max-width: 350px;
+  text-align: center;
+}
+.decsTextGray {
+  color: var(--gray);
+}

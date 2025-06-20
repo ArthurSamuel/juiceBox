@@ -1,0 +1,6 @@
+.titleText {
+  font-family: var(--font-bagoss);
+  max-width: 320px;
+  text-align: center;
+  font-size: 19px;
+}

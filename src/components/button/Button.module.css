@@ -1,0 +1,14 @@
+.button {
+  width: 100%;
+  max-width: 350px;
+  height: 60px;
+  border-radius: var(--btnBorderRadius);
+  padding-top: var(--btnPaddingTop);
+  padding-bottom: var(--btnPaddingBottom);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--textBody);
+  font-family: var(--font-sohne);
+  cursor: pointer;
+}

@@ -1,26 +1,104 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Bagoss';
+  src: url("/fonts/Bagoss/BagossTRIALVF.ttf");
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url("/fonts/Graphik/Graphik-Medium.woff");
+}
+
+@font-face {
+  font-family: 'Sohne';
+  src: url("/fonts/Sohne/Sohne-Buch.otf");
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0C0D10;
+  --purple: #CDAAFF;
+  --white: #FAFAFA;
+  --black: #0C0D10;
+  --blackMedium: #252732;
+  --gray: #848586;
+  --red: #DC2525;
+  --textH2: 25px;
+  --textH4: 22px;
+  --textBody: 16px;
+  --textCaption: 12px;
+  --btnPaddingTop: 24px;
+  --btnPaddingBottom: 24px;
+  --btnBorderRadius: 19px;
+  --textFieldBorderRadius: 18px;
+  --moduleSpacingTop: 24px;
+  --moduleSpacingBottom: 24px;
+  --moduleSpacingLeft: 20px;
+  --moduleSpacingRight: 20px;
+  --font-bagoss: 'Bagoss', sans-serif;
+  --font-graphik: 'Graphik', sans-serif;
+  --font-sohne: 'Sohne', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.bgPurple {
+  background-color: var(--purple);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.bgWhite {
+  background-color: var(--white);
+}
+
+.moduleSpacingTop {
+  padding-top: var(--moduleSpacingTop);
+}
+
+.moduleSpacingBottom {
+  padding-bottom: var(--moduleSpacingBottom);
+}
+
+.moduleSpacingLeft {
+  padding-left: var(--moduleSpacingLeft);
+}
+
+.moduleSpacingRight {
+  padding-right: var(--moduleSpacingRight);
+}
+
+.textCaption {
+  font-size: var(--textCaption);
+}
+
+.textBody {
+  font-size: var(--textBody);
+}
+
+.textH2 {
+  font-size: var(--textH2);
+}
+
+.textH4 {
+  font-size: var(--textH4);
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--white);
+}
+
+@media screen and (max-width:410px) {
+  :root {
+    --textCaption: 10px;
+    --textBody: 14px;
+    --textH2: 22px;
+    --textH4: 20px;
+  }
+}
+
+@media screen and (max-width:310px) {
+  :root {
+    --textCaption: 8px;
+    --textBody: 12px;
+    --textH2: 20px;
+    --textH4: 18px;
+  }
 }

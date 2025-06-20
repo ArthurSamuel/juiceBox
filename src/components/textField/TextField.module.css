@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--white);
+  border-radius: var(--textFieldBorderRadius);
+  padding: 12px;
+  gap: 7px;
+}
+.input {
+  width: 100%;
+  border: 0px;
+  color: var(--white);
+  font-family: var(--font-sohne);
+  font-size: var(--textBody);
+  box-shadow: 0px;
+}
+.input:focus {
+  outline: none;
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 31px;
+  border-radius: 50%;
+  background-color: var(--blackMedium);
+}

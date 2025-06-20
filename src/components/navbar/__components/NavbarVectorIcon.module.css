@@ -1,0 +1,62 @@
+.wordJ {
+  position: absolute;
+  width: 7.85px;
+  height: 20.82px;
+  left: 8%;
+  bottom: 6%;
+}
+.wordJDot {
+  position: absolute;
+  width: 6.28px;
+  height: 6.26px;
+  left: 32%;
+}
+.wordU {
+  position: absolute;
+  width: 14.96px;
+  height: 15.49px;
+  left: 10%;
+  bottom: 20%;
+}
+.wordI {
+  position: absolute;
+  width: 5.21px;
+  height: 15.1px;
+  left: 37%;
+  bottom: 24%;
+}
+.wordC {
+  position: absolute;
+  width: 16.16px;
+  height: 15.88px;
+  left: 11%;
+  bottom: 19%;
+}
+.wordE {
+  position: absolute;
+  width: 16.16px;
+  height: 15.88px;
+  left: 5%;
+  bottom: 19%;
+}
+.wordB {
+  position: absolute;
+  width: 16.69px;
+  height: 23.12px;
+  left: 5%;
+  bottom: 19%;
+}
+.wordO {
+  position: absolute;
+  width: 16.29px;
+  height: 15.88px;
+  left: 3%;
+  bottom: 19%;
+}
+.wordX {
+  position: absolute;
+  width: 15.94px;
+  height: 15.1px;
+  left: -5%;
+  bottom: 22%;
+}

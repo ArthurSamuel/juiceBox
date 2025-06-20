@@ -1,0 +1,14 @@
+.titleText {
+  font-family: var(--font-sohne);
+  font-size: var(--textH2);
+  line-height: 28px;
+}
+.titleTextPurple {
+  background: linear-gradient(to right, #CDAAFF, #A87DFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.iconSize {
+  width: 50%;
+  height: 50%;
+}
